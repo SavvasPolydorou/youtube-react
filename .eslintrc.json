@@ -27,6 +27,7 @@
         "no-duplicate-imports": "error",
         "@typescript-eslint/triple-slash-reference": "off"
     },
+
     "settings": {
         "import/resolver": {
             "typescript": {}
