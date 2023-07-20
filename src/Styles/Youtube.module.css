@@ -1,0 +1,11 @@
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.seperator {
+    background-color: #3f3f3f;
+    height: 4px;
+    border: 0;
+}

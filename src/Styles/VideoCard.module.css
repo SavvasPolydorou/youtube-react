@@ -1,0 +1,73 @@
+.topLevelContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+
+h4,
+p {
+    color: white;
+}
+
+.thumbnailContainer {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: fit-content;
+}
+
+/* Bottom right text */
+.bottom_right {
+    position: absolute;
+    background-color: #020508;
+    bottom: 8px;
+    right: 0.5rem;
+    padding: 0.2em;
+    font-size: 14px;
+}
+
+.thumbnailContainer img {
+    object-fit: contain;
+    width: 350px;
+    max-width: 350px;
+    border-radius: 5%;
+}
+
+.thumbnailContainer img:hover {
+    cursor: pointer;
+}
+
+.userAndInfoContainer {
+    display: flex;
+    gap: 0.5em;
+    max-width: 350px;
+}
+
+.userAndInfoContainer img {
+    border-radius: 50%;
+    width: 3vw;
+    height: 6vh;
+}
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: flex-start;
+}
+
+.infoContainer h4 {
+    text-align: left;
+    font-weight: 600;
+    max-width: 425px;
+    text-overflow: ellipsis;
+}
+
+.infoContainer h4,
+.infoContainer p {
+    padding: 0;
+    margin: 0;
+}
+
+.infoContainer p {
+    color: #aaaaa0;
+}
