@@ -100,7 +100,10 @@ input:focus {
 }
 
 #searchBtn:hover,
-#voiceBtn {
+#voiceBtn:hover,
+#createBtn:hover,
+#notificationsBtn:hover,
+#user:hover {
     cursor: pointer;
 }
 
